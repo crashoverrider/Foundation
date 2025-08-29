@@ -1,4 +1,4 @@
-package com.stringops;
+package com.java.interviewps;
 
 import java.util.Scanner;
 
