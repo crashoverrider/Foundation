@@ -16,7 +16,7 @@ public class IsAlphabet {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		char inputChar = scan.next().charAt(0);
+		char inputChar = scan.next().charAt(0);		
 		checkIfCharacterIsAlphabet(inputChar);
 		scan.close();
 
