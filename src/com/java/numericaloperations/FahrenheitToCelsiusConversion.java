@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FahrenheitToCelsiusConversion {
 	
-	public static float temperatureConversion(float fahrenheit) {
+	public  float temperatureConversion(float fahrenheit) {
 		float celsius;
 		
 		celsius = (float) ((fahrenheit-32)/1.8);
@@ -15,7 +15,9 @@ public class FahrenheitToCelsiusConversion {
 		
 		Scanner scan = new Scanner(System.in);
 		float inputTemperature = scan.nextFloat();
-		System.out.println(temperatureConversion(inputTemperature));		
+		FahrenheitToCelsiusConversion converter = new FahrenheitToCelsiusConversion();
+		System.out.println(converter.temperatureConversion(inputTemperature));
+		scan.close();
 		
 
 	}
